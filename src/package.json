@@ -1,0 +1,30 @@
+{
+  "name": "Proyecto Final",
+  "version": "1.0.0",
+  "main": "app.js",
+  "scripts": {
+    "dev": "nodemon app.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node ./bin/www",
+    "migrate": "node ./bin/migrate.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "bootstrap-icons": "^1.11.3",
+    "cookie-session": "^2.1.0",
+    "cors": "^2.8.5",
+    "express": "^4.19.1",
+    "jsonwebtoken": "^9.0.2",
+    "mysql2": "^3.9.1",
+    "nodemon": "^3.0.3",
+    "sequelize": "^6.37.0",
+    "stripe": "^14.22.0",
+    "debug": "~2.6.9",
+    "morgan": "~1.9.1",
+    "pg": "^8.7.3"
+  },
+  "description": ""
+}
